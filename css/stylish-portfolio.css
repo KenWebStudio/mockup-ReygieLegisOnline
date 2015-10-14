@@ -191,6 +191,22 @@ hr.small {
     -o-background-size: cover;
 }
 
+.callout h1 {
+  font-weight: 300;
+  line-height: 7rem;
+  padding-bottom: 3rem
+}
+@media(max-width:768px) {
+  .callout h1 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+  }
+}
+
+.callout p {
+  font-size: 2.2rem;
+}
+
 /* Portfolio */
 
 .portfolio {
